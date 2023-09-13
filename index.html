@@ -43,63 +43,106 @@
             <a class="boton" href="#">Contactanos</a> 
         </di>
     </section>
-    <main class="contenedor">
+    <main class="contenedor sombra">
 
         <h2>Nuestros Servicios</h2>
-        
-        <section>
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in semper orcim perdiet porta in vitae nulla.</p>
-        </section>
-        
-        <section>
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in semper orcim perdiet porta in vitae nulla.</p>
-        </section>
-        
-        <section>
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in semper orcim perdiet porta in vitae nulla.</p>
-        </section>
+        <div class="servicios">
+            
+            <section class="servicio">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-angular" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5.428 17.245l6.076 3.471a1 1 0 0 0 .992 0l6.076 -3.471a1 1 0 0 0 .495 -.734l1.323 -9.704a1 1 0 0 0 -.658 -1.078l-7.4 -2.612a1 1 0 0 0 -.665 0l-7.399 2.613a1 1 0 0 0 -.658 1.078l1.323 9.704a1 1 0 0 0 .495 .734z" />
+                        <path d="M9 15l3 -8l3 8" />
+                        <path d="M10 13h4" />
+                      </svg>
+                    
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in semper orcim perdiet porta in vitae nulla.</p>
+            </section>
+            
+            <section class="servicio">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-php" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 12m-10 0a10 9 0 1 0 20 0a10 9 0 1 0 -20 0" />
+                        <path d="M5.5 15l.395 -1.974l.605 -3.026h1.32a1 1 0 0 1 .986 1.164l-.167 1a1 1 0 0 1 -.986 .836h-1.653" />
+                        <path d="M15.5 15l.395 -1.974l.605 -3.026h1.32a1 1 0 0 1 .986 1.164l-.167 1a1 1 0 0 1 -.986 .836h-1.653" />
+                        <path d="M12 7.5l-1 5.5" />
+                        <path d="M11.6 10h2.4l-.5 3" />
+                      </svg>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in semper orcim perdiet porta in vitae nulla.</p>
+            </section>
+            
+            <section class="servicio">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-cpp" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M18 12h4" />
+                        <path d="M20 10v4" />
+                        <path d="M11 12h4" />
+                        <path d="M13 10v4" />
+                        <path d="M9 9a3 3 0 0 0 -3 -3h-.5a3.5 3.5 0 0 0 -3.5 3.5v5a3.5 3.5 0 0 0 3.5 3.5h.5a3 3 0 0 0 3 -3" />
+                      </svg>
+                    
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in semper orcim perdiet porta in vitae nulla.</p>
+            </section>
+
+        </div>
 
 
+        <section>
+            <h2>Contacto</h2>
+        </section>
+    
+        <form class="formulario" action="">
+            <fieldset>
+                <legend>Contactanos llenando todos los campos</legend>
+            <div class="contenedor-campos">
+
+                <div class="campo">
+                    <label for="">Nombre</label>
+                    <input class="input-text" type="text" placeholder="Tu nombre">
+                </div>
+        
+                <div class="campo">        
+                    <label for="">Telefono</label>
+                    <input class="input-text" type="tel" placeholder="Tu Telefono">
+                </div>
+                
+                <div class="campo">
+                    <label for="">Email</label>
+                    <input class="input-text" type="email" placeholder="Tu email">
+                </div>
+                
+                <div class="campo">        
+                    <label for="">Tu mensaje</label>
+                    <textarea class="input-text"></textarea>
+                </div>
+                
+            </div>
+            <div class="alinear-derecha flex">
+                <input class="boton w100-bt" type="submit" value="Enviar">
+
+            </div>
+        </fieldset>
+        </form>
+    
     </main>
     
-    <section>
-        <h2>Contacto</h2>
-    </section>
-
-    <form action="">
-        <fieldset><legend>Contactanos llenando todos los campos</legend></fieldset>
-        
-        <div>
-            <label for="">Nombre</label>
-            <input type="text" placeholder="Tu nombre">
-        </div>
-
-        <div>        
-            <label for="">Telefono</label>
-            <input type="tel" placeholder="Tu Telefono">
-        </div>
-        
-        <div>
-            <label for="">Email</label>
-            <input type="email" placeholder="Tu email">
-        </div>
-        
-        <div>        
-            <label for="">Tu mensaje</label>
-            <textarea></textarea>
-        </div>
-
-        <input type="submit" value="Enviar">
-
-    </form>
-
+    
+    
     <footer>
         <p>Todos los derechos reservados IStudio</p>
     </footer>
 
-
+    
 </body>
 </html>
